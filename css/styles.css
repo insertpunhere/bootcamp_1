@@ -1,55 +1,38 @@
-h1 {
-    color:#12ff33;
-    display:inline;
+/*GLOBAL STYLES*/
+
+html, body {
+    height:100%;
+    width:100%;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#efefef;
+    font-family:'helvetica ms', helvetica, sans-serif;
+    color:#ffffff;
+    font-size:18px;
+    font-weight:500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0px;
+    padding:0px;
+    color:#f5634a; /*redCreamsicle*/
 }
 
 p {
-    color:#ff0507;
-     display:inline;
-
-}
-
-.banner {
-    width:1329px;
-}
-
-div.banner {
-    position:absolute;
-    top:104px;
-    margin:4px;
-}
-
-header {
-    background-color:#fad089;
-    padding:48px;
+    line-height:130%;
+    color:#ff9c58; /*orangeCreamsicle*/
 }
 
 
-nav li {
-    display:inline;
-    padding:20px;
-    background-color:#ff9c58;
-    border-style:solid;
-    border-color:#ff9c58;
-    border-radius:6px 6px 0px 0px;
-}    
+/*HEADER STYLES*/
 
 
-nav li a {
-    color:#ffffff;
-}
 
-#logo {
-    float:left;
-}
+/*BANNER STYLES*/
 
-li a {
-    text-decoration:none;
-    text-transform:uppercase;
-}
 
-main {
-    display:inline;
-    top:400px;
-}
 
+/*FOOTER STYLES*/
