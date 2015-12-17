@@ -17,7 +17,7 @@ jQuery(function ($) {
     if (supportsAudio) {
         var index = 0,
             playing = false;
-        mediaPath = '/anaklusmos/bootcamp_1/media/',
+        mediaPath = '/bootcamp_1/media/',
         extension = '',
         tracks = [{
             "track": 1,
