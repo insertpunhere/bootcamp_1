@@ -8,31 +8,229 @@ html, body {
 body {
     margin:0px;
     padding:0px;
-    background-color:#efefef;
-    font-family:'helvetica ms', helvetica, sans-serif;
+    background-color:#444;
+    font-family:'Courier New', Courier, sans-serif;
     color:#ffffff;
-    font-size:18px;
-    font-weight:500;
+    font-size:17px;
+    font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin:0px;
     padding:0px;
-    color:#f5634a; /*redCreamsicle*/
+    color:#EC8035; /*burntCreamsicle*/
 }
 
 p {
     line-height:130%;
-    color:#ff9c58; /*orangeCreamsicle*/
+    color:#ff8c48; /*orangeCreamsicle*/
+}
+
+b, strong {
+    color:#EC8035;
+}
+
+a {
+    text-decoration:none;
+    color:#EC8035;
+}
+
+a:hover {
+    color:#ffd090;
+}
+
+/*HEADER STYLES=====================================================================*/
+
+header {
+    background-color:#333;
+}
+
+#header {
+    position:relative;
+    overflow:hidden;
+}
+
+#logo {
+    display:inline-block;
+}
+
+#logo a {
+    color:#5b83ff;
+    display:inline;
+}
+
+#logo a:hover {
+    color:#7b93ff;
+}
+
+/*MENU STYLE-----------*/
+
+#menu {
+    display:inline-block;
+    position:absolute;
+    right:0.25%;
+}
+
+#menu ul {
+    display:inline-block;
+}
+
+#menu li {
+    display:inline;
+    text-align:center;
+}
+
+#menu li:after {
+    content:"|";
+    padding:0px 15px;
+    font-weight:600;
+    color:#222;
+}
+
+.currentPage {
+    color:#5b83ff;
+}
+
+.currentPage:hover {
+    color:#7b93ff;
+}
+
+/*BANNER STYLES=====================================================================*/
+
+#bannerHome {
+    overflow:hidden;
+    padding:200px 0px;
+    border-top:3px solid #ec8035;
+    background-size:cover;
+    background:url(../images/banner_home.jpg) no-repeat top center #5b83ff;
+}
+
+.bannerText {
+    position:relative;
+    font-size:4em;
+    color:#ffffff;
+    text-shadow:4px 4px 4px #111111;
 }
 
 
-/*HEADER STYLES*/
+/*MAIN BODY STYLES==================================================================*/
 
+.mainWidth {
+    overflow:hidden;
+    margin:0px auto;
+    width:1200px;
+}
 
+.button {
+    background-color:#5b83ff;
+    display:inline-block;
+    padding: 20px;
+    border: 4px #7b93ff solid;
+    border-radius:4px;
+    color:#003c7a;
+    font-weight:600;
+    font-size:1.1em;
+    margin:20px 0px;
+    transition:background 0.6s linear 0s, color 0.6s linear 0s;
+}
 
-/*BANNER STYLES*/
+.button:hover {
+    background-color:#7b93ff;
+    color:#ffffff;
+}
 
+/*COLUMN STYLES=====================================================*/
 
+.columnA, .columnB, .columnC {
+    width:384px;
+    /*display:inline-block;*/
+}
+
+.columnA, .columnB {
+    float:left;
+    margin-right:24px;
+}
+
+.columnC {
+    float:right;
+}
+
+.columnA h2, .columnB h2, .columnC h2 {
+    font-size:2.5em;
+    font-weight:700;
+}
+
+.cPic img {
+    border-top: 4px solid #5b83ff;
+}
+
+.box span{
+    display:block;
+    background-color:#333;
+    text-align:center;
+    margin-bottom:16px;
+    padding:16px;
+    font-weight:800;
+    font-size:1.5em;
+    text-transform:uppercase;
+    color:#ffffff;
+}
+
+.columnA p, .columnB p, .columnC p {
+    text-align:left; 
+    font-weight:700;
+    height: 176px;
+} /*FIX TEXT ALIGN AFTER WRITING PARAGRAPHS*/
+
+.columnA .button, .columnB .button, .columnC .button {
+    display:block;
+    text-align:center;
+}
+
+/*ABOUT ME STYLES*/
+
+.alignLeft {
+    float:left;
+    margin-right:24px;
+}
+
+.alignRight {
+    float:left;
+    margin-left:24px;
+    width:700px; 
+}
+
+.alignRight p {
+    margin:0px;
+}
 
 /*FOOTER STYLES*/
+
+footer {
+    background-color:#333;
+    border-top: 4px solid #5b83ff;
+    overflow:hidden;
+    text-align:center;
+}
+
+.social {
+    margin-top: 15px;
+}
+
+.fa {
+    background-color: #ec8035;
+    border: 4px solid #fff;
+    border-radius: 100%;
+    font-size:2em !important;
+    margin: 15px;
+    padding: 10px;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    transition:background 0.5s linear 0s, color 0.5s linear 0s;
+}
+
+.fa:hover {
+    color:#5b83ff;
+    border-color:#5b83ff;
+}
