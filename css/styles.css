@@ -43,11 +43,13 @@ a:hover {
 
 header {
     background-color:#333;
+    width:100%;
 }
 
 #header {
     position:relative;
     overflow:hidden;
+    width:100%;
 }
 
 #logo {
@@ -204,13 +206,42 @@ header {
     margin:0px;
 }
 
+.floatRight {
+    float:right;
+    margin-left: 24px;
+}
+
+.vidContainer {
+    width:90%;
+    margin:0px auto;
+}
+
+#vidHolder {
+    width:100%;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0px;
+    overflow:hidden;
+}
+
+#vidHolder iframe {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+} 
+
 /*FOOTER STYLES*/
 
-footer {
+#footer {
     background-color:#333;
     border-top: 4px solid #5b83ff;
     overflow:hidden;
     text-align:center;
+    margin-top: 10px;
+    width:100%;
 }
 
 .social {
@@ -233,4 +264,24 @@ footer {
 .fa:hover {
     color:#5b83ff;
     border-color:#5b83ff;
+}
+
+/*CONTACT ME STYLE*/
+
+#wufoo-z18qmv9z100nw7l {
+    border: 4px solid #ec8035;
+    border-radius: 6px;
+    width: 80%;
+    background-color: #5b83ff;
+    margin:30px auto;
+}
+
+#bannerAbout {
+    border-top: 4px solid #ec8035;
+    background-color: #5b83ff;
+}
+
+#bannerContact {
+    border-top: 4px solid #ec8035;
+    background-color: #5b83ff;
 }
