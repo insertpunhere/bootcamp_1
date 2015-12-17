@@ -54,11 +54,13 @@ header {
 
 #logo {
     display:inline-block;
+    margin-right:5px;
 }
 
 #logo a {
     color:#5b83ff;
     display:inline;
+    margin-right:5px;
 }
 
 #logo a:hover {
